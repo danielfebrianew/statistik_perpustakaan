@@ -1,0 +1,37 @@
+.body {
+    background-color: #26425a;
+}
+
+.btn {
+    font-size: 19px;
+    font-family: 'Readex Pro', sans-serif;
+    padding: 10px 20px; /* Adjust padding for the desired width and height */
+    margin: 5px;
+    border: none;
+    outline: none;
+    color: #26425a;
+    background: #efeeee;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: white;
+    font-size: 20px;
+}
+
+/* Style for the flex container */
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    border-radius: 20px; /* Apply border-radius to the container */
+    border: 1px solid #ccc; /* Add a border (optional) */
+    padding: 20px; /* Add padding to the container (adjust as needed) */
+    max-width: 600px; /* Set a maximum width for the container (adjust as needed) */
+    margin: 0 auto; /* Center the container horizontally (optional) */
+    background-color: red;
+}
+
+/* Style for individual sections within the container */
+.flex-container > div {
+    margin-bottom: 20px; /* Add margin between sections (adjust as needed) */
+}
